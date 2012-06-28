@@ -1,7 +1,7 @@
 === Miln Help Book Search ===
 Tags: Mac, help book, Apple, application, HPDBookKBURL, HPDBookKBProduct, Miln
 Requires at least: 3.3
-Tested up to: 3.3
+Tested up to: 3.4.1
 Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -19,7 +19,7 @@ A good Mac application always includes a help book.
 
 A great application provides dynamic help book content offering users advice gathered not only locally from static files within the help book but also from web based articles.
 
-Use Miln Help Book Search to add your WordPress blog content into your Mac application's helpbook. Inclusion with your Mac help book is simple, set the HPDBookKBURL key to a tweaked WordPress search URL.
+Use Miln Help Book Search to add your WordPress blog content into your Mac application's help book. Inclusion with your Mac help book is simple, set the HPDBookKBURL key to a tweaked WordPress search URL.
 
 By adding results from your web site directly into your Mac application, you can provide constantly updated information, help, and advice. You can use your WordPress search traffic to find out what users need help on.
 
@@ -35,10 +35,10 @@ By adding results from your web site directly into your Mac application, you can
 
 1. In your help book Info.plist, add two key pairs:
 
-`<key>HPDBookKBURL</key>`
-`<string>http://www.yoursite.com/helpbook/?s='query'&amp;l='lang'&amp;p='product'</string>`
-`<key>HPDBookKBProduct</key>`
-`<string>productname</string>`
+	<key>HPDBookKBURL</key>
+	<string>http://www.example.com/helpbook/?s='query'&amp;l='lang'&amp;p='product'</string>
+	<key>HPDBookKBProduct</key>
+	<string>productname</string>
 
 == Changelog ==
 
