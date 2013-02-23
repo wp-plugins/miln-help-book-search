@@ -1,11 +1,15 @@
 === Miln Help Book Search ===
 Tags: Mac, help book, Apple, application, HPDBookKBURL, HPDBookKBProduct, Miln
 Requires at least: 3.3
-Tested up to: 3.4.1
+Tested up to: 3.5.1
 Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Author: graham.miln (Graham Miln)
 Contributors: graham.miln
+Author URI: http://miln.eu/
+Plugin URI: http://miln.eu/open/helpbooksearch/
+Donate link: http://miln.eu/open/donate
 
 Add WordPress content to your Mac application's help book.
 
@@ -25,7 +29,15 @@ By adding results from your web site directly into your Mac application, you can
 
 == Installation ==
 
-* WordPress
+Miln Help Book Search is a standard WordPress plug-in. The plug-in can be installed through your WordPress dashboard:
+
+1. Log into WordPress.
+1. Go to Plugins > Add New
+1. Search for "Miln"
+1. Select "Install Now" for "Miln Help Book Search"
+1. Select "Activate Plugin"
+
+* WordPress Manual Installation
 
 1. Upload the `miln-help-book-search` directory to the `/wp-content/plugins/` directory;
 1. Activate the plugin through the 'Plugins' menu in WordPress.
@@ -42,5 +54,5 @@ By adding results from your web site directly into your Mac application, you can
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0 =
 * Initial release.
