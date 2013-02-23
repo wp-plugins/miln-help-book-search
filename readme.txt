@@ -32,10 +32,10 @@ By adding results from your web site directly into your Mac application, you can
 Miln Help Book Search is a standard WordPress plug-in. The plug-in can be installed through your WordPress dashboard:
 
 1. Log into WordPress.
-1. Go to Plugins > Add New
+1. Go to **Plugins** > **Add New**
 1. Search for "Miln"
-1. Select "Install Now" for "Miln Help Book Search"
-1. Select "Activate Plugin"
+1. Select **Install Now** for "Miln Help Book Search"
+1. Select **Activate Plugin**
 
 * WordPress Manual Installation
 
@@ -47,10 +47,8 @@ Miln Help Book Search is a standard WordPress plug-in. The plug-in can be instal
 
 1. In your help book Info.plist, add two key pairs:
 
-	<key>HPDBookKBURL</key>
-	<string>http://www.example.com/helpbook/?s='query'&amp;l='lang'&amp;p='product'</string>
-	<key>HPDBookKBProduct</key>
-	<string>productname</string>
+ - HPDBookKBProduct = productname
+ - HPDBookKBURL = http://www.example.com/helpbook/?s='query'&amp;l='lang'&amp;p='product'
 
 == Changelog ==
 
