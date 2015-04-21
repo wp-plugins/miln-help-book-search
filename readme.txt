@@ -1,14 +1,14 @@
 === Miln Help Book Search ===
 Tags: Mac, help book, Apple, application, HPDBookKBURL, HPDBookKBProduct, Miln
 Requires at least: 3.3
-Tested up to: 3.9
+Tested up to: 4.1
 Stable tag: trunk
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Author: graham.miln (Graham Miln)
 Contributors: graham.miln
-Author URI: http://miln.eu/
-Plugin URI: http://miln.eu/open/helpbooksearch/
+Author URI: http://miln.eu
+Plugin URI: http://miln.eu/open/helpbooksearch
 Donate link: http://miln.eu/open/donate
 
 Add WordPress content to your Mac application's help book.
